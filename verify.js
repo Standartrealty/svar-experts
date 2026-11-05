@@ -13,4 +13,5 @@ assert.equal(catalog({}).total,332);assert.equal(catalog({slice:'10'}).products.
 const ids=new Set();for(let slice=1;slice<=10;slice++)for(const p of catalog({slice}).products)ids.add(p.uid);assert.equal(ids.size,332);
 for(const part of data.parts)assert.ok(catalog({storepartuid:String(part.uid)}).total>0);
 assert.ok(catalog({'filters[brand]':'YOKOMOTO'}).products.every(p=>p.brand==='YOKOMOTO'));
+for(const alias of ['544983720072-motopompa-yokomoto-50cx','880477745052-generator-yokomoto-4000-ix'])assert.ok(fs.existsSync('public/catalog/tproduct/'+alias+'.html'));
 console.log(JSON.stringify({products:332,photos,descriptions,categories:data.parts.length,checks:'passed'},null,2));

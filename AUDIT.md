@@ -5,7 +5,7 @@ Snapshot: 2026-11-06 (Europe/Moscow).
 
 ## Coverage
 
-- 10 sitemap pages, 332 unique products, 343 saved HTML pages including product URL aliases.
+- 10 sitemap pages, 332 unique products, 345 saved HTML pages including product URL aliases.
 - 941 local assets, including 714 product gallery photos.
 - 329 product descriptions; 3 descriptions absent in the source.
 - All 332 products have no price provided by the source.
@@ -37,7 +37,7 @@ Snapshot: 2026-11-06 (Europe/Moscow).
 ## Missing descriptions
 
 - 132652608042: Генератор yokomoto 4000 EB
-- 722332343502: Компрессор YOKOMOTO AC-200 750
+- 722332345502: Компрессор YOKOMOTO AC-200 750
 - 601544896612: Генератор Yokomoto 13500 EBW Duplex
 
 ## Full product inventory
@@ -59,7 +59,7 @@ Snapshot: 2026-11-06 (Europe/Moscow).
 | 741193952032 | [Генератор инверторный YOKOMOTO 8800 oix](http://svar-experts.ru/catalog/tproduct/741193952032-generator-invertornii-yokomoto-8800-oix) | YOKOMOTO | 1 | Present |
 | 714561959482 | [Генератор инверторный YOKOMOTO 9800 oix](http://svar-experts.ru/catalog/tproduct/714561959482-generator-invertornii-yokomoto-9800-oix) | YOKOMOTO | 1 | Present |
 | 552934231152 | [Компрессор yokomoto 24 / 220](http://svar-experts.ru/catalog/tproduct/552934231152-kompressor-yokomoto-24-220) | YOKOMOTO | 1 | Present |
-| 722332343502 | [Компрессор YOKOMOTO AC-200 750](http://svar-experts.ru/catalog/tproduct/722332343502-kompressor-yokomoto-ac-200-750) | YOKOMOTO | 1 | Absent in source |
+| 722332345502 | [Компрессор YOKOMOTO AC-200 750](http://svar-experts.ru/catalog/tproduct/722332345502-kompressor-yokomoto-ac-200-750) | YOKOMOTO | 1 | Absent in source |
 | 289129404822 | [Компрессор YOKOMOTO AC-300 1100](http://svar-experts.ru/catalog/tproduct/289129404822-kompressor-yokomoto-ac-300-1100) | YOKOMOTO | 1 | Present |
 | 532939956232 | [Компрессор YOKOMOTO AC-50 260](http://svar-experts.ru/catalog/tproduct/532939956232-kompressor-yokomoto-ac-50-260) | YOKOMOTO | 1 | Present |
 | 849862588762 | [Компрессор YOKOMOTO AC-50/380](http://svar-experts.ru/catalog/tproduct/849862588762-kompressor-yokomoto-ac-50380) | YOKOMOTO | 1 | Present |
@@ -217,7 +217,7 @@ Snapshot: 2026-11-06 (Europe/Moscow).
 | 822737047162 | [Дизельный генератор A-iPower электростанция айповер AD 3000 с ручным запуском, 2.8 кВт, 230В](http://svar-experts.ru/catalog/tproduct/822737047162-dizelnii-generator-a-ipower-elektrostant) | IPower | 3 | Present |
 | 306540021082 | [Дизельный генератор A-iPower электростанция айповер AD 5500 EA с электростартером, 5 кВт, 230В](http://svar-experts.ru/catalog/tproduct/306540021082-dizelnii-generator-a-ipower-elektrostant) | IPower | 5 | Present |
 | 336772160222 | [Инверторный бензиновый генератор A-iPower A 3500 LiS с ручным запуском, 3 кВт, 230В](http://svar-experts.ru/catalog/tproduct/336772160222-invertornii-benzinovii-generator-a-ipowe) | IPower | 4 | Present |
-| 615834343232 | [Инверторный бензиновый генератор A-iPower A6500i, однофазный с электростартером, 6 кВт, 230В](http://svar-experts.ru/catalog/tproduct/615834343232-invertornii-benzinovii-generator-a-ipowe) | IPower | 4 | Present |
+| 615834543232 | [Инверторный бензиновый генератор A-iPower A6500i, однофазный с электростартером, 6 кВт, 230В](http://svar-experts.ru/catalog/tproduct/615834543232-invertornii-benzinovii-generator-a-ipowe) | IPower | 4 | Present |
 | 256932681962 | [Бензиновый генератор инверторный A-iPower A9000 LiS](http://svar-experts.ru/catalog/tproduct/256932681962-benzinovii-generator-invertornii-a-ipowe) | IPower | 4 | Present |
 | 134137742062 | [Инверторный бензиновый генератор A-iPower A 8000 iS с электростартером, 8.0 кВт, 230В](http://svar-experts.ru/catalog/tproduct/134137742062-invertornii-benzinovii-generator-a-ipowe) | IPower | 4 | Present |
 | 910663766562 | [Инверторный бензиновый генератор A-iPower A 2500 iS с ручным запуском, 2.2 кВт, 230В](http://svar-experts.ru/catalog/tproduct/910663766562-invertornii-benzinovii-generator-a-ipowe) | IPower | 4 | Present |
@@ -376,3 +376,9 @@ Snapshot: 2026-11-06 (Europe/Moscow).
 | 839250870712 | [Сварочный полуавтомат инверторный Edon Smart MIG-170S безгазовый](http://svar-experts.ru/catalog/tproduct/839250870712-svarochnii-poluavtomat-invertornii-edon) | EDON | 3 | Present |
 | 601544896612 | [Генератор Yokomoto 13500 EBW Duplex](http://svar-experts.ru/catalog/tproduct/601544896612-generator-yokomoto-13500-ebw-duplex) | YOKOMOTO | 1 | Absent in source |
 | 437025297122 | [Автоматический стабилизатор напряжения VOLTBERRY DVR45-15KVA](http://svar-experts.ru/catalog/tproduct/437025297122-avtomaticheskii-stabilizator-napryazheni) | VOLTBERRY | 1 | Present |
+
+## Image optimization
+
+All 762 PNG/JPEG resources were converted to WebP quality 92 without resizing (EXIF orientation is preserved). Original files remain in the local original-assets.tar.gz archive. All 714 catalog gallery photos are present in the published copy.
+
+Two additional legacy carousel URL aliases (544983720072 and 880477745052) resolve to their existing products and have been preserved. All internal paths linked from the captured pages are covered.

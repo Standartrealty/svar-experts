@@ -1,7 +1,10 @@
-const fs=require('node:fs'),path=require('node:path'),{spawn,execFileSync}=require('node:child_process');
+const fs=require('node:fs'),path=require('node:path'),{spawn}=require('node:child_process');
 async function main(){
- execFileSync('tar',['-xzf','source-bundle.tar.gz'],{stdio:'inherit'});
  const parts=fs.readdirSync('asset-bundle').filter(p=>p.startsWith('part-')).sort();
+ const manifest=JSON.parse(fs.readFileSync('asset-bundle/manifest.json','utf8'));
+ const {createHash}=require('node:crypto');
+ if(parts.length!==manifest.length)throw new Error('Asset archive is incomplete');
+ for(const entry of manifest){const bytes=fs.readFileSync(path.join('asset-bundle',entry.file));if(bytes.length!==entry.bytes||createHash('sha256').update(bytes).digest('hex')!==entry.sha256)throw new Error('Corrupt archive part: '+entry.file);}
  if(!parts.length)throw new Error('Asset bundle missing');
  fs.mkdirSync('public/assets',{recursive:true});
  const tar=spawn('tar',['-xzf','-','-C','public'],{stdio:['pipe','inherit','inherit']});

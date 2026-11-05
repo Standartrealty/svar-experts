@@ -1,7 +1,7 @@
 {
   "products": 332,
   "declaredProducts": 332,
-  "pages": 343,
+  "pages": 345,
   "assets": 941,
   "pageErrors": {},
   "assetErrors": {},
@@ -14,5 +14,14 @@
   ],
   "pricesProvided": 0,
   "localAssetReferences": 941,
-  "missingLocalAssets": 0
+  "missingLocalAssets": 0,
+  "optimizedImages": 762,
+  "imageFormat": "WebP quality 92, original dimensions",
+  "originalPngJpegBytes": 514539081,
+  "optimizedPngJpegBytes": 71457886,
+  "originalAssetsArchive": "original-assets.tar.gz (local)",
+  "additionalProductAliases": [
+    "544983720072-motopompa-yokomoto-50cx",
+    "880477745052-generator-yokomoto-4000-ix"
+  ]
 }
