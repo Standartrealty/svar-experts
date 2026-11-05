@@ -1,0 +1,18 @@
+{
+  "products": 332,
+  "declaredProducts": 332,
+  "pages": 343,
+  "assets": 941,
+  "pageErrors": {},
+  "assetErrors": {},
+  "photos": 714,
+  "descriptions": 329,
+  "missingDescriptions": [
+    132652608042,
+    722332343502,
+    601544896612
+  ],
+  "pricesProvided": 0,
+  "localAssetReferences": 941,
+  "missingLocalAssets": 0
+}
