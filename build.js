@@ -1,17 +1,19 @@
 const fs=require('node:fs'),path=require('node:path'),{spawn}=require('node:child_process');
 async function main(){
- const parts=fs.readdirSync('asset-bundle').filter(p=>p.startsWith('part-')).sort();
- const manifest=JSON.parse(fs.readFileSync('asset-bundle/manifest.json','utf8'));
+ for(const bundle of ['asset-bundle','price-assets']){
+ const parts=fs.readdirSync(bundle).filter(p=>p.startsWith('part-')).sort();
+ const manifest=JSON.parse(fs.readFileSync(path.join(bundle,'manifest.json'),'utf8'));
  const {createHash}=require('node:crypto');
  if(parts.length!==manifest.length)throw new Error('Asset archive is incomplete');
- for(const entry of manifest){const bytes=fs.readFileSync(path.join('asset-bundle',entry.file));if(bytes.length!==entry.bytes||createHash('sha256').update(bytes).digest('hex')!==entry.sha256)throw new Error('Corrupt archive part: '+entry.file);}
+ for(const entry of manifest){const bytes=fs.readFileSync(path.join(bundle,entry.file));if(bytes.length!==entry.bytes||createHash('sha256').update(bytes).digest('hex')!==entry.sha256)throw new Error('Corrupt archive part: '+entry.file);}
  if(!parts.length)throw new Error('Asset bundle missing');
  fs.mkdirSync('public/assets',{recursive:true});
  const tar=spawn('tar',['-xzf','-','-C','public'],{stdio:['pipe','inherit','inherit']});
  const done=new Promise((resolve,reject)=>{tar.on('close',code=>code===0?resolve():reject(new Error('tar exit '+code)));tar.on('error',reject);});
- for(const part of parts){for await(const chunk of fs.createReadStream(path.join('asset-bundle',part))){if(!tar.stdin.write(chunk))await new Promise(resolve=>tar.stdin.once('drain',resolve));}}
+ for(const part of parts){for await(const chunk of fs.createReadStream(path.join(bundle,part))){if(!tar.stdin.write(chunk))await new Promise(resolve=>tar.stdin.once('drain',resolve));}}
  tar.stdin.end();await done;
- console.log('Restored assets from '+parts.length+' archive parts');
+ console.log('Restored '+bundle+' from '+parts.length+' archive parts');
+ }
  const domain=process.env.VERCEL_PROJECT_PRODUCTION_URL||process.env.VERCEL_URL;
  if(domain){
   function pages(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?pages(path.join(dir,e.name)):(e.name.endsWith('.html')?[path.join(dir,e.name)]:[]));}

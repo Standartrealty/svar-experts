@@ -2,7 +2,12 @@ const fs = require('node:fs');
 const path = require('node:path');
 let snapshot;
 function catalog(query, body) {
- query=Object.fromEntries(Object.entries(query).map(([key,value])=>[key.replace(/\[\d+\]$/, ''),value]));
+ const normalized={};
+ for(const [key,value] of Object.entries(query||{})){
+  const name=key.replace(/\[\d+\]$/, '');
+  normalized[name]=normalized[name]===undefined?value:[].concat(normalized[name],value);
+ }
+ query=normalized;
  snapshot ||= JSON.parse(fs.readFileSync(path.join(__dirname, '../public/catalog-data.json'), 'utf8'));
  const operation = query.operation || 'getproductslist';
  let products = snapshot.products.slice();
@@ -16,12 +21,15 @@ function catalog(query, body) {
  if(operation==='getfilters')return snapshot.filters;
  const part = query.storepartuid;
  if(part && String(part)!==String(snapshot.partuid))products=products.filter(p=>JSON.parse(p.partuids||'[]').map(String).includes(String(part)));
- for(const [key,value] of Object.entries(query)) {
-  if(key==='filters[brand]' || key==='brand')products=products.filter(p=>p.brand===value);
-  if(key==='filters[storepartuid]') {
-   const category=snapshot.parts.find(p=>p.title===value||String(p.uid)===String(value));
-   if(category)products=products.filter(p=>JSON.parse(p.partuids||'[]').map(String).includes(String(category.uid)));
-  }
+ const matches=(value,chosen)=>[].concat(chosen).some(v=>[].concat(value||[]).map(String).includes(String(v)));
+ for(const field of ['brand','equipment_type','voltage','nominal_power']){
+  const chosen=get(field);
+  if(chosen)products=products.filter(p=>matches(p[field],chosen));
+ }
+ const selectedParts=query['filters[storepartuid]'];
+ if(selectedParts){
+  const ids=[].concat(selectedParts).map(value=>snapshot.parts.find(p=>p.title===value||String(p.uid)===String(value))?.uid).filter(Boolean).map(String);
+  if(ids.length)products=products.filter(p=>JSON.parse(p.partuids||'[]').some(id=>ids.includes(String(id))));
  }
  const search=get('search')||get('query')||'';
  if(search)products=products.filter(p=>(p.title+' '+p.brand+' '+p.text.replace(/<[^>]*>/g,' ')).toLowerCase().includes(String(search).toLowerCase()));

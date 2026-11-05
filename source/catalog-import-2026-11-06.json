@@ -1,0 +1,2368 @@
+{
+  "batch": "price-2026-11-06",
+  "includedRows": 87,
+  "excludedRedRows": 28,
+  "addedProducts": 54,
+  "updatedCards": 36,
+  "totalProducts": 386,
+  "retailPriceColumn": "МРЦ",
+  "records": [
+    {
+      "uid": 891548238264,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор Voltberry V4000EX",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 3
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 38500,
+      "mainPhoto": "/assets/price-20261106-9b828557f718a68b7c2c.webp",
+      "mainPhotoWorkbookMedia": "image7.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-750a9102529c6f3b0e42.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V4000EX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 657612430384,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор Voltberry V6000EKX",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 4
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 63800,
+      "mainPhoto": "/assets/price-20261106-2c9ae140f74215156892.webp",
+      "mainPhotoWorkbookMedia": "image8.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-c5daba2c6750d6c98201.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V6000EKX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 202603175664,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор Voltberry V7000EKX",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 5
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 71500,
+      "mainPhoto": "/assets/price-20261106-2c9ae140f74215156892.webp",
+      "mainPhotoWorkbookMedia": "image8.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-3fadf69bbbbd8d68f947.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V7000EKX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 122944147532,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор Voltberry V8000EKX",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 6
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 82500,
+      "mainPhoto": "/assets/price-20261106-2c9ae140f74215156892.webp",
+      "mainPhotoWorkbookMedia": "image8.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-b18aa11771b20dcc9829.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V8000EKX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 624177631968,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор Voltberry V9000EKX",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 7
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 93500,
+      "mainPhoto": "/assets/price-20261106-2c9ae140f74215156892.webp",
+      "mainPhotoWorkbookMedia": "image8.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-c80f604d0357dac44501.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V9000EKX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 884075393376,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор Voltberry V10000EKX",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 8
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 110000,
+      "mainPhoto": "/assets/price-20261106-2c9ae140f74215156892.webp",
+      "mainPhotoWorkbookMedia": "image8.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-feefdbf7317a6c48f958.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V10000EKX (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-88b5ce777ebb27ab82e1.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V10000EKX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 464468498173,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор инверторный Voltberry V1500i",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 9
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 22000,
+      "mainPhoto": "/assets/price-20261106-5f3018cce6fcd40d6677.webp",
+      "mainPhotoWorkbookMedia": "image10.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-3a0813862bc043a8120a.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V1500i.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 740584460087,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор инверторный Voltberry V5500iEK",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 10
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 72600,
+      "mainPhoto": "/assets/price-20261106-340840f48f53f2a294b3.webp",
+      "mainPhotoWorkbookMedia": "image9.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-baa858b892bc1697eec6.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V55000IEK.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 304241977634,
+      "brand": "VOLTBERRY",
+      "title": "Бензиновый генератор инверторный Voltberry V6500iEK",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 11
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 82500,
+      "mainPhoto": "/assets/price-20261106-340840f48f53f2a294b3.webp",
+      "mainPhotoWorkbookMedia": "image9.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-75fb54c9e3c4b099a677.webp",
+          "diskPath": "/Генераторы Voltberry/На белом фоне/V65000IEK.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 296870576416,
+      "brand": "VOLTBERRY",
+      "title": "Стабилизатор Voltberry DVR45-10 KVA",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 13
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 19800,
+      "mainPhoto": "/assets/price-20261106-05ccf0aa2ae2278f865d.webp",
+      "mainPhotoWorkbookMedia": "image1.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-dba152d6ef2d10fdd8d9.webp",
+          "diskPath": "/Стабилизаторы Voltberry/На белом фоне/Voltberry DVR45-10KVA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 437025297122,
+      "brand": "VOLTBERRY",
+      "title": "Стабилизатор Voltberry DVR45-15 KVA",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 14
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 24200,
+      "mainPhoto": "/assets/price-20261106-61a662c87be9f25aaf0e.webp",
+      "mainPhotoWorkbookMedia": "image2.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-c1de29b66365d996de0b.webp",
+          "diskPath": "/Стабилизаторы Voltberry/На белом фоне/Voltberry DVR45-15KVA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 801137718184,
+      "brand": "VOLTBERRY",
+      "title": "Стабилизатор Voltberry DVR45-20 KVA",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 15
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 27500,
+      "mainPhoto": "/assets/price-20261106-1bd659fa38192ad4ef71.webp",
+      "mainPhotoWorkbookMedia": "image3.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-93cc4972da38201bb5c6.webp",
+          "diskPath": "/Стабилизаторы Voltberry/На белом фоне/Voltberry DVR45-20KVA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 581909263329,
+      "brand": "VOLTBERRY",
+      "title": "Стабилизатор Voltberry DVR45-30 KVA",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 16
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 48400,
+      "mainPhoto": "/assets/price-20261106-b8405d2058119d33cd26.webp",
+      "mainPhotoWorkbookMedia": "image4.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-a6c741ec9f9f9429fdf9.webp",
+          "diskPath": "/Стабилизаторы Voltberry/На белом фоне/Voltberry DVR45-30KVA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 336255515219,
+      "brand": "VOLTBERRY",
+      "title": "Стабилизатор Voltberry IGBT-10 KVA",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 17
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Инверторный стабилизатор",
+      "price": 53900,
+      "mainPhoto": "/assets/price-20261106-252c27ead76b81d33c71.webp",
+      "mainPhotoWorkbookMedia": "image5.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-191bef6013ff680d9a77.webp",
+          "diskPath": "/Стабилизаторы Voltberry/На белом фоне/Voltberry IGBT-10KVA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 831430931682,
+      "brand": "VOLTBERRY",
+      "title": "Стабилизатор Voltberry SCR-20 KVA",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс VOLBERRY с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 18
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Тиристорный стабилизатор",
+      "price": 55000,
+      "mainPhoto": "/assets/price-20261106-d550fcd19162810c0e18.webp",
+      "mainPhotoWorkbookMedia": "image6.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-0abc189e987d1b5a40d7.webp",
+          "diskPath": "/Стабилизаторы Voltberry/На белом фоне/Voltberry SCR-20KVA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 617098665202,
+      "brand": "YOKOMOTO",
+      "title": "Блок автоматики YOKOMOTO ATS-1, 220 В",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 4
+      },
+      "category": "Генераторы",
+      "equipmentType": "Блок автоматики ATS",
+      "price": 14300,
+      "mainPhoto": "/assets/price-20261106-082187c87302a66e9378.webp",
+      "mainPhotoWorkbookMedia": "image11.jpeg",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 335124078663,
+      "brand": "YOKOMOTO",
+      "title": "Блок автоматики YOKOMOTO ATS-3, 380 В",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 4
+      },
+      "category": "Генераторы",
+      "equipmentType": "Блок автоматики ATS",
+      "price": 15400,
+      "mainPhoto": "/assets/price-20261106-082187c87302a66e9378.webp",
+      "mainPhotoWorkbookMedia": "image11.jpeg",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 647827928814,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO Блок автоматики для инвертор. ген. ATS-1 220В",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 5
+      },
+      "category": "Генераторы",
+      "equipmentType": "Блок автоматики ATS",
+      "price": 16500,
+      "mainPhoto": "/assets/price-20261106-89fdb4723ac920287eb3.webp",
+      "mainPhotoWorkbookMedia": "image41.jpeg",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 503001493481,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO Блок автоматики ATS-18000ioE",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 6
+      },
+      "category": "Генераторы",
+      "equipmentType": "Блок автоматики ATS",
+      "price": 33000,
+      "mainPhoto": "/assets/price-20261106-c9959a13545af83d4301.webp",
+      "mainPhotoWorkbookMedia": "image40.jpeg",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 558214688217,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO Карбюратор на ген. (2.5квт - 3.5квт) / (5-9 кВт)",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 7
+      },
+      "category": "Генераторы",
+      "equipmentType": "Карбюратор",
+      "price": null,
+      "mainPhoto": "/assets/price-20261106-78cf42a7201ca92dbea6.webp",
+      "mainPhotoWorkbookMedia": "image9.jpeg",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 684665753182,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 3800 E",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 8
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 22000,
+      "mainPhoto": "/assets/price-20261106-987b358222c902787188.webp",
+      "mainPhotoWorkbookMedia": "image26.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-61f3db919584e16c139a.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 3800 E.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 145360683372,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 3800 EB",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 9
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 26400,
+      "mainPhoto": "/assets/price-20261106-fa7812be52adefe69512.webp",
+      "mainPhotoWorkbookMedia": "image25.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-1a614a7286ae21adcdd2.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 3800 EB.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 815113154422,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 4000 E",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 10
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 27500,
+      "mainPhoto": "/assets/price-20261106-987b358222c902787188.webp",
+      "mainPhotoWorkbookMedia": "image26.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-a6fc830558f369bf2067.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 E.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 894134507812,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 4000 EB",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 11
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 31900,
+      "mainPhoto": "/assets/price-20261106-fa7812be52adefe69512.webp",
+      "mainPhotoWorkbookMedia": "image25.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-5174f3fc68c7060023fe.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 EB (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-6ff7f8e8c4f3712e5dbb.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 EB (3).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-316d64a4446e40db61fc.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 EB.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 132652608042,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 4000 EB",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 11
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 31900,
+      "mainPhoto": "/assets/price-20261106-fa7812be52adefe69512.webp",
+      "mainPhotoWorkbookMedia": "image25.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-5174f3fc68c7060023fe.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 EB (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-6ff7f8e8c4f3712e5dbb.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 EB (3).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-316d64a4446e40db61fc.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 EB.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 839024238452,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 6500 EB",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 12
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 53900,
+      "mainPhoto": "/assets/price-20261106-5c0b69cf48fb9e041bdb.webp",
+      "mainPhotoWorkbookMedia": "image27.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ed01ff040b7985f8468d.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 7500 8500 9500 EBW.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 507181555652,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 6500 EBW",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 13
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 58300,
+      "mainPhoto": "/assets/price-20261106-c902d8705b5c9d014f6a.webp",
+      "mainPhotoWorkbookMedia": "image28.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ed01ff040b7985f8468d.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 7500 8500 9500 EBW.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 671797514712,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 7500 EBW",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 14
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 63800,
+      "mainPhoto": "/assets/price-20261106-c902d8705b5c9d014f6a.webp",
+      "mainPhotoWorkbookMedia": "image28.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ed01ff040b7985f8468d.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 7500 8500 9500 EBW.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 722548626322,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 8500 EBW",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 15
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 74800,
+      "mainPhoto": "/assets/price-20261106-c902d8705b5c9d014f6a.webp",
+      "mainPhotoWorkbookMedia": "image28.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ed01ff040b7985f8468d.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 7500 8500 9500 EBW.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 716649314392,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 9500 EBW",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 16
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 81400,
+      "mainPhoto": "/assets/price-20261106-bd6ef85434c0047776f0.webp",
+      "mainPhotoWorkbookMedia": "image14.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ed01ff040b7985f8468d.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 7500 8500 9500 EBW.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 480845949512,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 9500-3 EBW",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 17
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 88000,
+      "mainPhoto": "/assets/price-20261106-427af219f093c04a94a4.webp",
+      "mainPhotoWorkbookMedia": "image15.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-6ee006b6c85d97281472.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 9500-3 EBW.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 482918122372,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 9500-3 EBWS со спец розеткой",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 18
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 91300,
+      "mainPhoto": "/assets/price-20261106-895dbe47d7f6fc593131.webp",
+      "mainPhotoWorkbookMedia": "image16.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ed01ff040b7985f8468d.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 7500 8500 9500 EBW.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 556569360112,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO генератор 13000 EBW",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 19
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 101200,
+      "mainPhoto": "/assets/price-20261106-e495ecaf5b113f337c3f.webp",
+      "mainPhotoWorkbookMedia": "image18.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ed01ff040b7985f8468d.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 7500 8500 9500 EBW.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 630837845282,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 1500 I",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 20
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 20900,
+      "mainPhoto": "/assets/price-20261106-344ecab58016cf6553a0.webp",
+      "mainPhotoWorkbookMedia": "image20.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-c64ceebc7e8391a31594.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 1500 i.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 668758205112,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 4000 I",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 21
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 46200,
+      "mainPhoto": "/assets/price-20261106-f98712274acffc45d995.webp",
+      "mainPhotoWorkbookMedia": "image21.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ffd174a745df477355b9.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 I.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 880477745052,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 4000 IX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 22
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 59400,
+      "mainPhoto": "/assets/price-20261106-0022ec3365a234e2e55b.webp",
+      "mainPhotoWorkbookMedia": "image22.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-d10ee16330ac5262248e.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 IX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 397401941362,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 4000 OI",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 23
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 33000,
+      "mainPhoto": "/assets/price-20261106-f648db45a1e35e003752.webp",
+      "mainPhotoWorkbookMedia": "image23.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-428fdda415573ba68908.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 OIX.jpg",
+          "sharedSeries": true
+        }
+      ]
+    },
+    {
+      "uid": 873331241892,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 4000 OIX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 24
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 46200,
+      "mainPhoto": "/assets/price-20261106-ed8510734f4e2b2b6832.webp",
+      "mainPhotoWorkbookMedia": "image24.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-428fdda415573ba68908.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 4000 OIX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 570929739812,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 6800 OIX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 25
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 70400,
+      "mainPhoto": "/assets/price-20261106-604cf189723c008a7099.webp",
+      "mainPhotoWorkbookMedia": "image12.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-7699c60aa09ea7c89673.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 6800 OIX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 741193952032,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 8800 OIX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 26
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 92400,
+      "mainPhoto": "/assets/price-20261106-8add6a5bf2a7a1bee07a.webp",
+      "mainPhotoWorkbookMedia": "image13.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-056680809116be95fb7a.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 8800 OIX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 714561959482,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 9800 OIX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 27
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 107800,
+      "mainPhoto": "/assets/price-20261106-f71d502125b8a70041de.webp",
+      "mainPhotoWorkbookMedia": "image17.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-336cdc897e9c98632911.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 9800 OIX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 555753590802,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 13500 OIX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 28
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 138600,
+      "mainPhoto": "/assets/price-20261106-8686c71347079e9c9d21.webp",
+      "mainPhotoWorkbookMedia": "image19.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-b9bb9f125feec9b6d5b1.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 13500 oix.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 369568507687,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO инверторный генератор 18000 OIX",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 29
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 286000,
+      "mainPhoto": "/assets/price-20261106-574d129d56ad6a563879.webp",
+      "mainPhotoWorkbookMedia": "image10.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-de83a729cce0c5112dcb.webp",
+          "diskPath": "/Генераторы YOKOMOTO/На белом фоне/Yokomoto 18000 OIX.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 544983720072,
+      "brand": "YOKOMOTO",
+      "title": "Мотопомпа YOKOMOTO 50CX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 33
+      },
+      "category": "Мотопомпы",
+      "equipmentType": "Мотопомпа",
+      "price": 14300,
+      "mainPhoto": "/assets/price-20261106-bba059e20956225b514a.webp",
+      "mainPhotoWorkbookMedia": "image36.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-62ef27ceab108b1d3ccb.webp",
+          "diskPath": "/Мотопомпы YOKOMOTO/На белом фоне/yokomoto 50cx.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 285459678102,
+      "brand": "YOKOMOTO",
+      "title": "Мотопомпа YOKOMOTO 80CX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 34
+      },
+      "category": "Мотопомпы",
+      "equipmentType": "Мотопомпа",
+      "price": 15400,
+      "mainPhoto": "/assets/price-20261106-f133753143e003871ae5.webp",
+      "mainPhotoWorkbookMedia": "image37.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-9d20f725ce525f80d850.webp",
+          "diskPath": "/Мотопомпы YOKOMOTO/На белом фоне/yokomoto 80cx (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-d4b57841ecbfbfcf5abe.webp",
+          "diskPath": "/Мотопомпы YOKOMOTO/На белом фоне/yokomoto 80cx.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 387800444792,
+      "brand": "YOKOMOTO",
+      "title": "Мотопомпа YOKOMOTO 100CX",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 35
+      },
+      "category": "Мотопомпы",
+      "equipmentType": "Мотопомпа",
+      "price": 31900,
+      "mainPhoto": "/assets/price-20261106-0627376ca60535e6a566.webp",
+      "mainPhotoWorkbookMedia": "image38.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-7199bd7ba2bac65fd3bd.webp",
+          "diskPath": "/Мотопомпы YOKOMOTO/На белом фоне/yokomoto 100cx.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 552934231152,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор AC-24/220",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 40
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 10450,
+      "mainPhoto": "/assets/price-20261106-11cbc295c837dd8bd354.webp",
+      "mainPhotoWorkbookMedia": "image29.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-2bb5cbbbb0a0ac5317e9.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-24 220.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 532939956232,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор AC-50/260",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 41
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 12100,
+      "mainPhoto": "/assets/price-20261106-2f40d8dd3b3ac4d207e5.webp",
+      "mainPhotoWorkbookMedia": "image30.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-2a8431b06a330bd09bb4.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-50 260.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 849862588762,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор AC-50/380",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 42
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 19800,
+      "mainPhoto": "/assets/price-20261106-6b9242090f3a205df3c4.webp",
+      "mainPhotoWorkbookMedia": "image31.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-27ffac56c2e8f3f0b2ec.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-50 380.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 231919706972,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор AC-100/400",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 43
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 33000,
+      "mainPhoto": "/assets/price-20261106-a11a51c02aac9b138b95.webp",
+      "mainPhotoWorkbookMedia": "image4.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-0ad85c86fd7dc580c6e3.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-100 400.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 449195604557,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор W-0.36/8 100L",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 44
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 39600,
+      "mainPhoto": "/assets/price-20261106-114d115cd94659ab2150.webp",
+      "mainPhotoWorkbookMedia": "image75.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-327a85a07cff93eb92d9.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/W-0.36 8 100L.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 497899835592,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор AC-200/750",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 49
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 58300,
+      "mainPhoto": "/assets/price-20261106-7bc14ec243c937f3b1c8.webp",
+      "mainPhotoWorkbookMedia": "image7.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-d7b5e5327520ca360dc7.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-200 750 (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-581adb7c0185f18ce04e.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-200 750.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 722332343502,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор AC-200/750",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 49
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 58300,
+      "mainPhoto": "/assets/price-20261106-7bc14ec243c937f3b1c8.webp",
+      "mainPhotoWorkbookMedia": "image7.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-d7b5e5327520ca360dc7.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-200 750 (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-581adb7c0185f18ce04e.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-200 750.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 289129404822,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор AC-300/1100",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 50
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 77000,
+      "mainPhoto": "/assets/price-20261106-163b999d7da6e7c33559.webp",
+      "mainPhotoWorkbookMedia": "image39.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-54bce7364f9ecc7ea08d.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/AC-300 1100.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 158907992038,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор V-0.25/8-100L (от пониженного напряжения 160В)",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 51
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Масляный компрессор",
+      "price": 39600,
+      "mainPhoto": "/assets/price-20261106-53c9a6aa8da56f8ea7fc.webp",
+      "mainPhotoWorkbookMedia": "image65.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-b0392028f88d996e8b3e.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/V-025 8-100L.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 320514561063,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор безмасляный 750Q-10L",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 52
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Безмасляный компрессор",
+      "price": 9350,
+      "mainPhoto": "/assets/price-20261106-efd9519a72a3e5ba5496.webp",
+      "mainPhotoWorkbookMedia": "image60.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-4998311a3f78fee2f311.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/750Q-10L.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 463548107513,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор безмасляный ACN-24/220",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 54
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Безмасляный компрессор",
+      "price": 12100,
+      "mainPhoto": "/assets/price-20261106-cf4a58f24eb3fa67b881.webp",
+      "mainPhotoWorkbookMedia": "image33.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-b0edc6d012d31e62ee34.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/ACN-24 220.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 960072444362,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор безмасляный ACN-50/280",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 55
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Безмасляный компрессор",
+      "price": 15400,
+      "mainPhoto": "/assets/price-20261106-55ed30dd5cf4b5a4ba61.webp",
+      "mainPhotoWorkbookMedia": "image34.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-b3516aa0b5ecf58e68df.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/ACN-50 280.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 845646664825,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор безмасляный 750W*3-100L",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 57
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Безмасляный компрессор",
+      "price": 34650,
+      "mainPhoto": "/assets/price-20261106-2e80e61547e808c4b17f.webp",
+      "mainPhotoWorkbookMedia": "image61.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-2672e1855ba1df43b6f8.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/750W3-100.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 207417982478,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор безмасляный SYW1680*4-200L",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 58
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Безмасляный компрессор",
+      "price": 59400,
+      "mainPhoto": "/assets/price-20261106-44086c4be155b2ad88bc.webp",
+      "mainPhotoWorkbookMedia": "image62.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-97279d15a57867a36bd9.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/SYW1680 4-200L.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 575523422586,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор винтовой SY-SC-3KW",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 59
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Винтовой компрессор",
+      "price": 118800,
+      "mainPhoto": "/assets/price-20261106-a3b56b8b89ad39beb682.webp",
+      "mainPhotoWorkbookMedia": "image63.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-ddc2a68574aa44e8ec61.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/SY-SC-3KW.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 138030540109,
+      "brand": "YOKOMOTO",
+      "title": "Yokomoto Компрессор винтовой SY-SC-4KW",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 60
+      },
+      "category": "Компрессоры",
+      "equipmentType": "Винтовой компрессор",
+      "price": 138600,
+      "mainPhoto": "/assets/price-20261106-9bd60a4b6816c3dbf9ac.webp",
+      "mainPhotoWorkbookMedia": "image64.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-124a0eceae3420b5225c.webp",
+          "diskPath": "/Компрессора YOKOMOTO/На белом фоне/SY-SC-4KW.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 700719704421,
+      "brand": "YOKOMOTO",
+      "title": "Аппарат плазменной резки YOKOMOTO CUT-100 DC (+Электросварка)",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 81
+      },
+      "category": "Сварочное оборудование",
+      "equipmentType": "Плазморез",
+      "price": 63800,
+      "mainPhoto": "/assets/price-20261106-bffc93e98f990f5698f3.webp",
+      "mainPhotoWorkbookMedia": "image66.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-00f2f78aa3a271c5fee1.webp",
+          "diskPath": "/Плазморезы YOKOMOTO/На белом фоне/cut-100.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 251129369214,
+      "brand": "SVAR EXPERT",
+      "title": "Маска сварочная SvarExpert Ф6 PRO Хамелеон",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 82
+      },
+      "category": "Сварочное оборудование",
+      "equipmentType": "Сварочная маска",
+      "price": 1430,
+      "mainPhoto": "/assets/price-20261106-9fae79c2c9137d930ab8.webp",
+      "mainPhotoWorkbookMedia": "image73.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 163276905770,
+      "brand": "SVAR EXPERT",
+      "title": "Маска сварочная SvarExpert Ф9 VIZION Хамелеон",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 83
+      },
+      "category": "Сварочное оборудование",
+      "equipmentType": "Сварочная маска",
+      "price": 3300,
+      "mainPhoto": "/assets/price-20261106-197feccdfb5e1832db68.webp",
+      "mainPhotoWorkbookMedia": "image67.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 183698783108,
+      "brand": "SVAR EXPERT",
+      "title": "Маска сварочная SvarExpert Ф9 ULTIMA Хамелеон",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 84
+      },
+      "category": "Сварочное оборудование",
+      "equipmentType": "Сварочная маска",
+      "price": 3520,
+      "mainPhoto": "/assets/price-20261106-bdee31395639077c3b91.webp",
+      "mainPhotoWorkbookMedia": "image68.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 475839434631,
+      "brand": "SVAR EXPERT",
+      "title": "Маска сварочная SvarExpert Ф10 ULTIMA Хамелеон",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 85
+      },
+      "category": "Сварочное оборудование",
+      "equipmentType": "Сварочная маска",
+      "price": 3740,
+      "mainPhoto": "/assets/price-20261106-c3d1fcdbf14e78dd93c6.webp",
+      "mainPhotoWorkbookMedia": "image69.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 209296059482,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO Пускозарядное устройство MAD-30",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 87
+      },
+      "category": "Пускозарядные устройства",
+      "equipmentType": "Пускозарядное устройство",
+      "price": 3850,
+      "mainPhoto": "/assets/price-20261106-d2c067a61d0fe544248e.webp",
+      "mainPhotoWorkbookMedia": "image74.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 344182856498,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO Пускозарядное устройство MAD-50",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 88
+      },
+      "category": "Пускозарядные устройства",
+      "equipmentType": "Пускозарядное устройство",
+      "price": 5060,
+      "mainPhoto": "/assets/price-20261106-d328431d779b003288e6.webp",
+      "mainPhotoWorkbookMedia": "image70.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 386276503335,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO Пускозарядное устройство BNC-500",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 89
+      },
+      "category": "Пускозарядные устройства",
+      "equipmentType": "Пускозарядное устройство",
+      "price": 11550,
+      "mainPhoto": "/assets/price-20261106-c36e62eba4ca7e80e8a6.webp",
+      "mainPhotoWorkbookMedia": "image71.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 886842795193,
+      "brand": "YOKOMOTO",
+      "title": "YOKOMOTO Пускозарядное устройство SUN-650-1",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+        "sheet": "Прайс",
+        "row": 90
+      },
+      "category": "Пускозарядные устройства",
+      "equipmentType": "Пускозарядное устройство",
+      "price": 12100,
+      "mainPhoto": "/assets/price-20261106-4b00875cba433a57c544.webp",
+      "mainPhotoWorkbookMedia": "image72.png",
+      "additionalPhotos": []
+    },
+    {
+      "uid": 318348280255,
+      "brand": "BONATEK",
+      "title": "Бензиновый генератор Bonatek 3900E",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 3
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 19800,
+      "mainPhoto": "/assets/price-20261106-cb4fab00b004576b7e1c.webp",
+      "mainPhotoWorkbookMedia": "image2.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-c330a2ad880e9a122acd.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 3900e (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-251a49c67386266ac20d.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 3900e (3).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-08f06bb93b291544503c.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 3900e.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 312333985118,
+      "brand": "BONATEK",
+      "title": "Бензиновый генератор Bonatek 4200E",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 4
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 21450,
+      "mainPhoto": "/assets/price-20261106-de454c4e66179dcae648.webp",
+      "mainPhotoWorkbookMedia": "image5.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-0f6d7e939168b911ab49.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 4200e (2).jpg",
+          "sharedSeries": false
+        },
+        {
+          "asset": "/assets/price-20261106-2e793f11a934f42f61b7.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 4200e.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 388364610431,
+      "brand": "BONATEK",
+      "title": "Бензиновый генератор Bonatek 7000E",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 5
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 41800,
+      "mainPhoto": "/assets/price-20261106-245256ee02c4ae931332.webp",
+      "mainPhotoWorkbookMedia": "image6.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-f6928b78fec42f519af4.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 7000e.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 739331990744,
+      "brand": "BONATEK",
+      "title": "Бензиновый генератор Bonatek 8000E",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 6
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 46200,
+      "mainPhoto": "/assets/price-20261106-726740170954b069958e.webp",
+      "mainPhotoWorkbookMedia": "image9.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-15a468973f5e10f1c872.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 8000e.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 292988333726,
+      "brand": "BONATEK",
+      "title": "Бензиновый генератор Bonatek 9000E",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 7
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 57200,
+      "mainPhoto": "/assets/price-20261106-e4af72690193bb0dff53.webp",
+      "mainPhotoWorkbookMedia": "image10.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-fc0803128f0ace86630a.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 9000e.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 657041399869,
+      "brand": "BONATEK",
+      "title": "Бензиновый генератор Bonatek 10000E",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 8
+      },
+      "category": "Генераторы",
+      "equipmentType": "Бензиновый генератор",
+      "price": 63800,
+      "mainPhoto": "/assets/price-20261106-cefe304aa4dff2e3afa7.webp",
+      "mainPhotoWorkbookMedia": "image11.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-aa1124e0b8c26a0c7151.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 10000e.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 562768610395,
+      "brand": "BONATEK",
+      "title": "Бензиновый инверторный генератор Bonatek 4000io",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 9
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 22550,
+      "mainPhoto": "/assets/price-20261106-7ec9906631cfde5d9121.webp",
+      "mainPhotoWorkbookMedia": "image3.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-c27e88497e8a7fae8997.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 4000io.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 477567535082,
+      "brand": "BONATEK",
+      "title": "Бензиновый инверторный генератор Bonatek 4000ioe",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 10
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 29700,
+      "mainPhoto": "/assets/price-20261106-dd9863ecd505e359d6f4.webp",
+      "mainPhotoWorkbookMedia": "image4.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-c845210febec91613d3d.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 4000ioe.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 259980739030,
+      "brand": "BONATEK",
+      "title": "Бензиновый инверторный генератор Bonatek 7000io",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 11
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 38500,
+      "mainPhoto": "/assets/price-20261106-1218db25836b7b60e923.webp",
+      "mainPhotoWorkbookMedia": "image7.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-b6a948fc024e0516e9f3.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 7000io.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 427771970665,
+      "brand": "BONATEK",
+      "title": "Бензиновый инверторный генератор Bonatek 7000ioe",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 12
+      },
+      "category": "Генераторы",
+      "equipmentType": "Инверторный генератор",
+      "price": 42900,
+      "mainPhoto": "/assets/price-20261106-76646cec0e0f9206fff3.webp",
+      "mainPhotoWorkbookMedia": "image8.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-9c50cd5f8e8255a4534b.webp",
+          "diskPath": "/Генераторы Bonatek/На белом фоне/bonatek 7000ioe.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 564968301030,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek TKB-30000 VA,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 13
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Стабилизатор напряжения",
+      "price": 50600,
+      "mainPhoto": "/assets/price-20261106-3b65e8d8207d1045fbbd.webp",
+      "mainPhotoWorkbookMedia": "image12.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-35049688d96e0a0cdb48.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/TKB-30000 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 632905379552,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DTB-20KVA,",
+      "action": "updated",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 14
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Стабилизатор напряжения",
+      "price": 26400,
+      "mainPhoto": "/assets/price-20261106-83d43f3c2e027eb2241a.webp",
+      "mainPhotoWorkbookMedia": "image1.jpeg",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-eb8fa448862cf95d0f9b.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DTB-20000 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 114586095245,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DTB-15000 VA,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 15
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Стабилизатор напряжения",
+      "price": 24750,
+      "mainPhoto": "/assets/price-20261106-b022885fead54157a8b6.webp",
+      "mainPhotoWorkbookMedia": "image13.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-dc6569f2829651569239.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DTB-15000 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 850277114252,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DTB-10000 VA,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 16
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Стабилизатор напряжения",
+      "price": 20900,
+      "mainPhoto": "/assets/price-20261106-9b051738b2f14d2d5c3e.webp",
+      "mainPhotoWorkbookMedia": "image14.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-78e42b0546bff0eb94c1.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DTB-10000 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 145059609944,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DTB-5000 VA,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 17
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Стабилизатор напряжения",
+      "price": 12100,
+      "mainPhoto": "/assets/price-20261106-fb3211d04a1921dd501a.webp",
+      "mainPhotoWorkbookMedia": "image15.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-5edd8df4db0329c2951e.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DTB-5000 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 872306357432,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DNB-2000 VA ,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 18
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 4620,
+      "mainPhoto": "/assets/price-20261106-801a81df6f9641911e15.webp",
+      "mainPhotoWorkbookMedia": "image19.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-9d7c654ebcecfd98f6ab.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DNB-2000 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 277368833630,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DNB-1500 VA,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 19
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 3850,
+      "mainPhoto": "/assets/price-20261106-6535122e2f1a73999e9e.webp",
+      "mainPhotoWorkbookMedia": "image16.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-5258621bc2d7f1772929.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DNB-1500 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 124100730485,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DNB-1000 VA,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 20
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 3300,
+      "mainPhoto": "/assets/price-20261106-b6071e8947e99606b815.webp",
+      "mainPhotoWorkbookMedia": "image17.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-f0ee1defb91ab214e2f1.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DNB-1000 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    },
+    {
+      "uid": 421785680341,
+      "brand": "BONATEK",
+      "title": "Стабилизатор Bonatek DNB-500 VA ,",
+      "action": "added",
+      "source": {
+        "batch": "price-2026-11-06",
+        "file": "Прайс Bonatek с МРЦ (1).xlsx",
+        "sheet": "Лист1",
+        "row": 21
+      },
+      "category": "Стабилизаторы",
+      "equipmentType": "Релейный стабилизатор",
+      "price": 2750,
+      "mainPhoto": "/assets/price-20261106-f097189b3d48abf8a3d1.webp",
+      "mainPhotoWorkbookMedia": "image18.png",
+      "additionalPhotos": [
+        {
+          "asset": "/assets/price-20261106-6e2f36db245b48684681.webp",
+          "diskPath": "/Стабилизаторы Bonatek/На белом фоне/DNB-500 VA.jpg",
+          "sharedSeries": false
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "brand": "YOKOMOTO",
+      "row": 30,
+      "title": "YOKOMOTO Дизельный генератор 5GF-KE",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 31,
+      "title": "YOKOMOTO Дизельный генератор 6GF-KE",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 37,
+      "title": "YOKOMOTO Бетономешалка - Б200Ч",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 38,
+      "title": "YOKOMOTO Бетономешалка - Б220Ч",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 45,
+      "title": "Yokomoto Компрессор AC-150/700",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 46,
+      "title": "Yokomoto Компрессор AC-200/580",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 47,
+      "title": "Yokomoto Компрессор AC-150/700 (380v)",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 48,
+      "title": "Yokomoto Компрессор AC-200/580 (380v)",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 53,
+      "title": "Yokomoto Компрессор безмасляный ACN-9/200",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 56,
+      "title": "Yokomoto Компрессор безмасляный ACN-50/440",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 62,
+      "title": "Стабилизатор YOKOMOTO AVS-500",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 63,
+      "title": "Стабилизатор YOKOMOTO AVS-1500",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 64,
+      "title": "Стабилизатор YOKOMOTO AVS-3000",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 65,
+      "title": "Стабилизатор YOKOMOTO AVS-5000",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 66,
+      "title": "Стабилизатор YOKOMOTO AVS-10000",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 67,
+      "title": "Стабилизатор YOKOMOTO AVS-12000",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 68,
+      "title": "Стабилизатор YOKOMOTO AVS-20000",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 69,
+      "title": "Стабилизатор YOKOMOTO AVS-15000-3",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 70,
+      "title": "Стабилизатор YOKOMOTO AVS-20000-3",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 71,
+      "title": "Стабилизатор YOKOMOTO AVS-30000-3",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 72,
+      "title": "Стабилизатор YOKOMOTO AVS-5000/1-ЭМ",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 73,
+      "title": "Стабилизатор YOKOMOTO AVS-10000/1-ЭМ",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 74,
+      "title": "Стабилизатор YOKOMOTO AVS-12000/1-ЭМ",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 75,
+      "title": "Стабилизатор YOKOMOTO AVS-5500 L",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 76,
+      "title": "Стабилизатор YOKOMOTO AVS-9000 L",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 77,
+      "title": "Стабилизатор YOKOMOTO AVS-10000 L",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 78,
+      "title": "Стабилизатор YOKOMOTO AVS-14000 L",
+      "reason": "Красная заливка товарной строки"
+    },
+    {
+      "brand": "YOKOMOTO",
+      "row": 79,
+      "title": "Стабилизатор YOKOMOTO AVS-20000 L",
+      "reason": "Красная заливка товарной строки"
+    }
+  ],
+  "photosPublicShare": "https://disk.yandex.ru/d/O47DsSmSSn7k6Q",
+  "originalRedProductsAlreadyOnSite": "Existing unrelated cards were preserved and not updated by this import.",
+  "sourceGaps": [
+    {
+      "file": "Прайс YOKOMOTO с МРЦ (1).xlsx",
+      "sheet": "Прайс",
+      "row": 7,
+      "title": "YOKOMOTO Карбюратор на ген. (2.5квт - 3.5квт) / (5-9 кВт)",
+      "missing": [
+        "characteristics",
+        "retailPrice"
+      ]
+    },
+    {
+      "file": "Прайс Bonatek с МРЦ (1).xlsx",
+      "sheet": "Лист1",
+      "row": 9,
+      "title": "Бензиновый инветорный генератор Bonatek 4000io",
+      "missing": [
+        "characteristics"
+      ]
+    },
+    {
+      "file": "Прайс Bonatek с МРЦ (1).xlsx",
+      "sheet": "Лист1",
+      "row": 10,
+      "title": "Бензиновый инветорный генератор Bonatek 4000ioe",
+      "missing": [
+        "characteristics"
+      ]
+    },
+    {
+      "file": "Прайс Bonatek с МРЦ (1).xlsx",
+      "sheet": "Лист1",
+      "row": 11,
+      "title": "Бензиновый инветорный генератор Bonatek 7000io",
+      "missing": [
+        "characteristics"
+      ]
+    },
+    {
+      "file": "Прайс Bonatek с МРЦ (1).xlsx",
+      "sheet": "Лист1",
+      "row": 12,
+      "title": "Бензиновый инветорный генератор Bonatek 7000ioe",
+      "missing": [
+        "characteristics"
+      ]
+    }
+  ]
+}

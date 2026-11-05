@@ -6,3 +6,5 @@ public/assets/
 original-assets.tar.gz
 source-bundle.tar.gz
 optimize-images.py
+
+imports/

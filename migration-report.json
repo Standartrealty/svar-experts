@@ -23,5 +23,11 @@
   "additionalProductAliases": [
     "544983720072-motopompa-yokomoto-50cx",
     "880477745052-generator-yokomoto-4000-ix"
-  ]
+  ],
+  "currentCatalog": {
+    "products": 386,
+    "pages": 399,
+    "galleryPhotos": 856,
+    "priceImport": "source/catalog-import-2026-11-06.json"
+  }
 }
