@@ -24,7 +24,13 @@ function catalog(query, body) {
  const matches=(value,chosen)=>[].concat(chosen).some(v=>[].concat(value||[]).map(String).includes(String(v)));
  for(const field of ['brand','equipment_type','voltage','nominal_power']){
   const chosen=get(field);
-  if(chosen)products=products.filter(p=>matches(p[field],chosen));
+  if(chosen){
+   if(field==='brand'){
+    const canonical=value=>String(value||'').toUpperCase().replace(/^BONATEC$/, 'BONATEK');
+    const accepted=[].concat(chosen).map(canonical);
+    products=products.filter(p=>accepted.includes(canonical(p.brand)));
+   }else products=products.filter(p=>matches(p[field],chosen));
+  }
  }
  const selectedParts=query['filters[storepartuid]'];
  if(selectedParts){

@@ -28,6 +28,7 @@ const ids=new Set();for(let slice=1;slice<=Math.ceil(data.products.length/36);sl
 for(const part of data.parts)assert.ok(catalog({storepartuid:String(part.uid)}).total>0);
 assert.ok(catalog({'filters[brand][0]':'YOKOMOTO','filters[brand][1]':'BONATEK'}).products.every(p=>['YOKOMOTO','BONATEK'].includes(p.brand)));
 assert.equal(catalog({storepartuid:String(data.partuid),'filters[storepartuid][0]':'Пускозарядные устройства'}).total,4);
+assert.equal(catalog({'filters[brand][0]':'BONATEC'}).total,19);
 const charging=catalog({'filters[brand][0]':'YOKOMOTO','filters[equipment_type][0]':'Пускозарядное устройство'});assert.equal(charging.total,4);
 for(const p of catalog({'filters[voltage][0]':'220 В'}).products)assert.ok(p.voltage.includes('220 В'));
 for(const p of catalog({'filters[nominal_power][0]':'5 кВт'}).products)assert.equal(p.nominal_power,'5 кВт');
