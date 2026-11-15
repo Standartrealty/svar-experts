@@ -98,3 +98,17 @@ if (picks && picksControls) {
   new ResizeObserver(sync).observe(picks);
   sync();
 }
+
+// The legacy runtime can insert a promotional footer after the page has loaded.
+const recordsContainer = document.getElementById('allrecords')?.parentElement;
+if (recordsContainer) {
+  const removeLegacyFooter = node => {
+    if (node instanceof Element && node.matches('.t-tildalabel-free')) node.remove();
+  };
+  for (const child of recordsContainer.children) removeLegacyFooter(child);
+  new MutationObserver(changes => {
+    for (const change of changes) {
+      for (const node of change.addedNodes) removeLegacyFooter(node);
+    }
+  }).observe(recordsContainer, { childList: true });
+}
