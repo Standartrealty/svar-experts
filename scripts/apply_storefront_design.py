@@ -53,7 +53,7 @@ MOBILE_NAV = '''<nav class="sx-mobile-nav" aria-label="Быстрая навиг
 </nav>'''
 
 def common_assets(source):
-    source = re.sub(r'href="/site-design[.]css(?:[?][^"]*)?"', 'href="/site-design.css?v=orange-4"', source, count=1)
+    source = re.sub(r'href="/site-design[.]css(?:[?][^"]*)?"', 'href="/site-design.css?v=orange-6"', source, count=1)
     source = re.sub(r'<script src="/site-promotions[.]js(?:[?][^"]*)?" defer></script>', '', source)
     source = source.replace('</head>', '<script src="/site-promotions.js?v=orange-5" defer></script></head>', 1)
     source = re.sub(r'<nav class="sx-mobile-nav"[^>]*>.*?</nav>', '', source, flags=re.S)
@@ -87,13 +87,20 @@ def promotions():
 
 
 def brands():
-    names = ('YOKOMOTO', 'VOLTBERRY', 'BONATEK', 'EDON')
+    featured = (
+        ('YOKOMOTO', '132652608042'),
+        ('VOLTBERRY', '296870576416'),
+        ('BONATEK', '318348280255'),
+        ('EDON', '238888102502'),
+    )
     links = []
-    for index, brand in enumerate(names):
+    for index, (brand, uid) in enumerate(featured):
+        product = by_uid[uid]
+        assert product['brand'] == brand
         query = urlencode({'tfc_brand[1556473581]': brand, 'tfc_div': ':::'})
         state = '' if index == 0 else ' hidden'
-        links.append(f'<a class="sx-brand-link" href="{e("/catalog?" + query)}"{state}>{brand} <span aria-hidden="true">→</span></a>')
-    return f'<div class="sx-tile sx-brand-tile"><div><strong>Бренды</strong>{"".join(links)}</div><button type="button" class="sx-brand-next" aria-label="Следующий бренд">↻</button></div>'
+        links.append(f'<a class="sx-brand-link" href="{e("/catalog?" + query)}"{state}><span class="sx-brand-copy"><small>Бренды</small><strong>{brand}</strong><span>Перейти →</span></span>{image(product)}</a>')
+    return f'<div class="sx-tile sx-brand-tile">{"".join(links)}<button type="button" class="sx-brand-next" aria-label="Следующий бренд">›</button></div>'
 
 
 def home():
