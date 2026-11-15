@@ -44,6 +44,46 @@ FOOTER = f'''<footer class="sx-footer"><div class="sx-shell sx-footer-inner">
 <nav aria-label="О магазине"><h2>О магазине</h2><a href="/about">О компании</a><a href="/forb2bsales">Оптовым покупателям</a><a href="/privacypolicy">Политика конфиденциальности</a></nav>
 </div></footer>'''
 
+MOBILE_NAV = '''<nav class="sx-mobile-nav" aria-label="Быстрая навигация">
+<a href="/"><span aria-hidden="true">⌂</span>Главная</a>
+<a href="/catalog"><span aria-hidden="true">▦</span>Каталог</a>
+<a class="sx-mobile-contact" href="https://wa.me/79887888088"><span aria-hidden="true">✆</span>Связаться</a>
+<a href="/#rec1663734931"><span aria-hidden="true">☆</span>Отзывы</a>
+<a href="/#rec1892552401"><span aria-hidden="true">✎</span>Заявка</a>
+</nav>'''
+
+def common_assets(source):
+    source = re.sub(r'href="/site-design\.css(?:\?[^"]*)?"', 'href="/site-design.css?v=orange-1"', source, count=1)
+    if 'src="/site-promotions.js"' not in source:
+        source = source.replace('</head>', '<script src="/site-promotions.js" defer></script></head>', 1)
+    if 'class="sx-mobile-nav"' not in source:
+        source = source.replace('</body>', MOBILE_NAV + '</body>', 1)
+    return source
+
+
+
+
+def promotions():
+    slides = [
+        ('880477745052', 'YOKOMOTO 4000 IX', 'a7c7a236d03d1ab695528932'),
+        ('544983720072', 'Мотопомпа YOKOMOTO 50CX', 'a9c5140b01b2b95b332d12c4'),
+        ('132652608042', 'YOKOMOTO 4000 EB', 'effbfaac82182fee0963b6d6'),
+    ]
+    cards = []
+    buttons = []
+    for index, (uid, label, asset) in enumerate(slides):
+        state = ' hidden' if index else ''
+        current = '' if index else ' aria-current="true"'
+        cards.append(f'<a class="sx-promo-card sx-promo-slide" href="{e(by_uid[uid]["url"])}"{state}><img src="/assets/{asset}.webp" alt="{e(label)} — перейти к покупке"></a>')
+        buttons.append(f'<button type="button" aria-label="{e(label)}"{current}><span aria-hidden="true"></span></button>')
+    stabilizers = urlencode({'tfc_storepartuid[1556473581]': 'Стабилизаторы', 'tfc_div': ':::'})
+    return f'''<section class="sx-promo" aria-label="Предложения Свар Эксперт">
+<a class="sx-promo-card sx-promo-main" href="/yokomotobrend"><img src="/assets/d94b5ba783720ce019d6e630.webp" alt="" fetchpriority="high"><span>Мощность в любой ситуации</span><h1>Генераторы YOKOMOTO</h1></a>
+<a class="sx-promo-card sx-promo-stabilizers" href="{e('/catalog?' + stabilizers)}"><img src="/assets/79a8ba589a3ecd2cbbde150a.webp" alt=""><strong>Стабилизаторы</strong><span>Защита от перепадов</span></a>
+<a class="sx-promo-card sx-promo-sale" href="/sales"><img src="/assets/15d5fac205ad5cbdc63f278e.webp" alt="Шуруповёрт в подарок — условия акции"></a>
+<div class="sx-promo-rotation" role="group" aria-label="Три товара">{"".join(cards)}<div class="sx-promo-controls" hidden>{"".join(buttons)}<button type="button" class="sx-promo-pause" aria-label="Остановить смену товаров">Ⅱ</button></div></div>
+</section>'''
+
 
 def home():
     categories = []
@@ -58,9 +98,7 @@ def home():
         if product:
             picks.append(f'<a class="sx-tile" href="{e(product["url"])}">{image(product, "")}<span>{e(product["title"])}</span></a>')
     return f'''<main class="sx-home sx-shell">
-<section class="sx-hero"><div class="sx-hero-copy"><h1>Оборудование для дома и работы</h1><p>Генераторы, сварочные аппараты, компрессоры и мотопомпы. Выберите модель по нужным характеристикам.</p>
-<a class="sx-cta" href="/catalog">Открыть каталог <span aria-hidden="true">→</span></a></div>
-<a class="sx-hero-media" href="/yokomotobrend"><img src="/assets/d94b5ba783720ce019d6e630.webp" alt="Бензиновый генератор YOKOMOTO" fetchpriority="high"></a></section>
+<!-- sx-promo-start -->{promotions()}<!-- sx-promo-end -->
 <section class="sx-block"><div class="sx-block-head"><h2>Каталог по разделам</h2><a href="/catalog">Все товары →</a></div><div class="sx-grid">{"".join(categories)}</div></section>
 <section class="sx-block"><div class="sx-block-head"><h2>Популярные товары</h2></div><div class="sx-grid sx-picks">{"".join(picks)}</div></section>
 <section class="sx-block sx-services" aria-label="Помощь и сервис"><a href="/forbusiness">Подбор для бизнеса →</a><a href="/service">Сервис и гарантия →</a><a href="/sales">Акции →</a></section>
@@ -95,6 +133,12 @@ def update(path):
     route = '/' if relative == 'index.html' else '/' + relative[:-5]
     source = path.read_text(encoding='utf-8')
     if 'id="sx-design"' in source:
+        if route == '/':
+            source = re.sub(r'<!-- sx-promo-start -->.*?<!-- sx-promo-end -->|<section class="sx-hero">.*?</section>', lambda _: '<!-- sx-promo-start -->' + promotions() + '<!-- sx-promo-end -->', source, count=1, flags=re.S)
+        source = common_assets(source)
+        pending = path.with_suffix('.html.sx-tmp')
+        pending.write_text(source, encoding='utf-8')
+        pending.replace(path)
         return
     source = style_legacy(source, route)
     source = source.replace('</head>', '<link id="sx-design" rel="stylesheet" href="/site-design.css"></head>', 1)
@@ -107,6 +151,7 @@ def update(path):
         source = re.sub(r'<footer class="audit-section">.*?</footer>', '', source, flags=re.S)
     source, count = re.subn(r'</body>', FOOTER + '</body>', source, count=1, flags=re.I)
     assert count == 1, relative
+    source = common_assets(source)
     pending = path.with_suffix('.html.sx-tmp')
     pending.write_text(source, encoding='utf-8')
     pending.replace(path)
@@ -120,3 +165,4 @@ if (ROOT / 'catalog/index.html').exists():
     shutil.copyfile(ROOT / 'catalog.html', pending)
     pending.replace(ROOT / 'catalog/index.html')
 shutil.copyfile(CSS, ROOT / 'site-design.css')
+shutil.copyfile(CSS.with_name('site-promotions.js'), ROOT / 'site-promotions.js')
