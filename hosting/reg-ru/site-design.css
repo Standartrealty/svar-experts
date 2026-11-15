@@ -189,3 +189,9 @@ body { background: var(--sx-bg); color: var(--sx-ink); }
   .sx-promo-slide img { height: clamp(80px,25vw,145px); }
   .sx-picks { grid-auto-columns: clamp(150px,58%,240px); }
 }
+#rec1862963031 .t-quiz__cover__fullscreen-container,
+#rec1862963031 .t-quiz__cover__container { min-height: 0 !important; }
+#rec1862963031 .t-quiz__quiz-wrapper:has(.t-quiz__cover.t-step-form__step_active) {
+  height: auto !important;
+  min-height: 0 !important;
+}

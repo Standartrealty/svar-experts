@@ -53,11 +53,12 @@ MOBILE_NAV = '''<nav class="sx-mobile-nav" aria-label="Быстрая навиг
 </nav>'''
 
 def common_assets(source):
-    source = re.sub(r'href="/site-design[.]css(?:[?][^"]*)?"', 'href="/site-design.css?v=orange-2"', source, count=1)
+    source = re.sub(r'href="/site-design[.]css(?:[?][^"]*)?"', 'href="/site-design.css?v=orange-3"', source, count=1)
     source = re.sub(r'<script src="/site-promotions[.]js(?:[?][^"]*)?" defer></script>', '', source)
-    source = source.replace('</head>', '<script src="/site-promotions.js?v=orange-2" defer></script></head>', 1)
+    source = source.replace('</head>', '<script src="/site-promotions.js?v=orange-3" defer></script></head>', 1)
     source = re.sub(r'<nav class="sx-mobile-nav"[^>]*>.*?</nav>', '', source, flags=re.S)
     source = re.sub(r'<a class="sx-logo"[^>]*>.*?</a>', lambda _: LOGO, source, flags=re.S)
+    source = re.sub(r'<div class="t-tildalabel[^"]*"[^>]*>.*?</a>\s*</div>', '', source, flags=re.S)
     return source.replace('</body>', MOBILE_NAV + '</body>', 1)
 
 
