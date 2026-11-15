@@ -195,3 +195,14 @@ body { background: var(--sx-bg); color: var(--sx-ink); }
   height: auto !important;
   min-height: 0 !important;
 }
+
+@media (max-width: 760px) {
+  .sx-brand-tile {
+    grid-column: 1 / -1;
+    min-height: 88px;
+    padding: 14px 18px;
+    background: linear-gradient(165deg, #ffdc96, #ffab35);
+  }
+  .sx-brand-tile strong { margin-bottom: 1px; }
+  .sx-brand-link { font-size: clamp(20px, 6vw, 28px); color: #2a1b10 !important; }
+}
