@@ -13,7 +13,7 @@ snapshot = json.loads((ROOT / 'catalog-data.json').read_text(encoding='utf-8'))
 products = snapshot['products']
 by_uid = {str(p['uid']): p for p in products}
 NAV = [('/catalog', 'Каталог'), ('/sales', 'Акции'), ('/service', 'Сервис'), ('/forbusiness', 'Для бизнеса')]
-LOGO = '<a class="sx-logo" href="/" aria-label="Свар Эксперт, главная"><span class="sx-logo-mark" aria-hidden="true">SE</span>Свар Эксперт</a>'
+LOGO = '<a class="sx-logo" href="/" aria-label="Свар Эксперт, главная"><img src="/site-logo.png" width="846" height="240" alt="Svar Expert YOKOMOTO"></a>'
 PHONE = '<a class="sx-phone" href="tel:+79887888088">+7 988 788-80-88</a>'
 HOME_REPLACED = {'1893733101', '1694804531', '1620311391'}
 RECORD = re.compile(r'<div\b[^>]*\bid="rec\d+"[^>]*\bdata-record-type="\d+"[^>]*>')
@@ -47,34 +47,34 @@ FOOTER = f'''<footer class="sx-footer"><div class="sx-shell sx-footer-inner">
 MOBILE_NAV = '''<nav class="sx-mobile-nav" aria-label="Быстрая навигация">
 <a href="/"><span aria-hidden="true">⌂</span>Главная</a>
 <a href="/catalog"><span aria-hidden="true">▦</span>Каталог</a>
-<a class="sx-mobile-contact" href="https://wa.me/79887888088"><span aria-hidden="true">✆</span>Связаться</a>
+<a class="sx-mobile-contact" href="https://wa.me/79887888088"><span aria-hidden="true">✆</span>WhatsApp</a>
 <a href="/#rec1663734931"><span aria-hidden="true">☆</span>Отзывы</a>
 <a href="/#rec1892552401"><span aria-hidden="true">✎</span>Заявка</a>
 </nav>'''
 
 def common_assets(source):
-    source = re.sub(r'href="/site-design\.css(?:\?[^"]*)?"', 'href="/site-design.css?v=orange-1"', source, count=1)
-    if 'src="/site-promotions.js"' not in source:
-        source = source.replace('</head>', '<script src="/site-promotions.js" defer></script></head>', 1)
-    if 'class="sx-mobile-nav"' not in source:
-        source = source.replace('</body>', MOBILE_NAV + '</body>', 1)
-    return source
-
-
+    source = re.sub(r'href="/site-design[.]css(?:[?][^"]*)?"', 'href="/site-design.css?v=orange-2"', source, count=1)
+    source = re.sub(r'<script src="/site-promotions[.]js(?:[?][^"]*)?" defer></script>', '', source)
+    source = source.replace('</head>', '<script src="/site-promotions.js?v=orange-2" defer></script></head>', 1)
+    source = re.sub(r'<nav class="sx-mobile-nav"[^>]*>.*?</nav>', '', source, flags=re.S)
+    source = re.sub(r'<a class="sx-logo"[^>]*>.*?</a>', lambda _: LOGO, source, flags=re.S)
+    return source.replace('</body>', MOBILE_NAV + '</body>', 1)
 
 
 def promotions():
     slides = [
-        ('880477745052', 'YOKOMOTO 4000 IX', 'a7c7a236d03d1ab695528932'),
-        ('544983720072', 'Мотопомпа YOKOMOTO 50CX', 'a9c5140b01b2b95b332d12c4'),
-        ('132652608042', 'YOKOMOTO 4000 EB', 'effbfaac82182fee0963b6d6'),
+        ('880477745052', 'YOKOMOTO 4000 IX', 'Компактный инверторный генератор'),
+        ('544983720072', 'Мотопомпа YOKOMOTO 50CX', 'Для перекачки воды'),
+        ('132652608042', 'YOKOMOTO 4000 EB', 'Бензиновый генератор для резервного питания'),
     ]
     cards = []
     buttons = []
-    for index, (uid, label, asset) in enumerate(slides):
+    for index, (uid, label, description) in enumerate(slides):
         state = ' hidden' if index else ''
         current = '' if index else ' aria-current="true"'
-        cards.append(f'<a class="sx-promo-card sx-promo-slide" href="{e(by_uid[uid]["url"])}"{state}><img src="/assets/{asset}.webp" alt="{e(label)} — перейти к покупке"></a>')
+        product = by_uid[uid]
+        copy = f'<div class="sx-promo-text"><strong>{e(label)}</strong><span>{e(description)}</span><span class="sx-promo-buy">Перейти к покупке</span></div>'
+        cards.append(f'<a class="sx-promo-card sx-promo-slide" href="{e(product["url"])}"{state}>{copy}{image(product, "")}</a>')
         buttons.append(f'<button type="button" aria-label="{e(label)}"{current}><span aria-hidden="true"></span></button>')
     stabilizers = urlencode({'tfc_storepartuid[1556473581]': 'Стабилизаторы', 'tfc_div': ':::'})
     return f'''<section class="sx-promo" aria-label="Предложения Свар Эксперт">
@@ -83,6 +83,16 @@ def promotions():
 <a class="sx-promo-card sx-promo-sale" href="/sales"><img src="/assets/15d5fac205ad5cbdc63f278e.webp" alt="Шуруповёрт в подарок — условия акции"></a>
 <div class="sx-promo-rotation" role="group" aria-label="Три товара">{"".join(cards)}<div class="sx-promo-controls" hidden>{"".join(buttons)}<button type="button" class="sx-promo-pause" aria-label="Остановить смену товаров">Ⅱ</button></div></div>
 </section>'''
+
+
+def brands():
+    names = ('YOKOMOTO', 'VOLTBERRY', 'BONATEK', 'EDON')
+    links = []
+    for index, brand in enumerate(names):
+        query = urlencode({'tfc_brand[1556473581]': brand, 'tfc_div': ':::'})
+        state = '' if index == 0 else ' hidden'
+        links.append(f'<a class="sx-brand-link" href="{e("/catalog?" + query)}"{state}>{brand} <span aria-hidden="true">→</span></a>')
+    return f'<div class="sx-tile sx-brand-tile"><div><strong>Бренды</strong>{"".join(links)}</div><button type="button" class="sx-brand-next" aria-label="Следующий бренд">↻</button></div>'
 
 
 def home():
@@ -99,8 +109,8 @@ def home():
             picks.append(f'<a class="sx-tile" href="{e(product["url"])}">{image(product, "")}<span>{e(product["title"])}</span></a>')
     return f'''<main class="sx-home sx-shell">
 <!-- sx-promo-start -->{promotions()}<!-- sx-promo-end -->
-<section class="sx-block"><div class="sx-block-head"><h2>Каталог по разделам</h2><a href="/catalog">Все товары →</a></div><div class="sx-grid">{"".join(categories)}</div></section>
-<section class="sx-block"><div class="sx-block-head"><h2>Популярные товары</h2></div><div class="sx-grid sx-picks">{"".join(picks)}</div></section>
+<section class="sx-block"><div class="sx-block-head"><h2>Каталог по разделам</h2><a href="/catalog">Все товары →</a></div><div class="sx-grid">{"".join(categories)}{brands()}</div></section>
+<section class="sx-block"><div class="sx-block-head"><h2>Топ за свои деньги</h2><div class="sx-picks-controls" hidden><button type="button" aria-label="Предыдущие товары">←</button><button type="button" aria-label="Следующие товары">→</button></div></div><div class="sx-grid sx-picks" tabindex="0" aria-label="Подборка товаров">{"".join(picks)}</div></section>
 <section class="sx-block sx-services" aria-label="Помощь и сервис"><a href="/forbusiness">Подбор для бизнеса →</a><a href="/service">Сервис и гарантия →</a><a href="/sales">Акции →</a></section>
 </main>'''
 
@@ -134,7 +144,8 @@ def update(path):
     source = path.read_text(encoding='utf-8')
     if 'id="sx-design"' in source:
         if route == '/':
-            source = re.sub(r'<!-- sx-promo-start -->.*?<!-- sx-promo-end -->|<section class="sx-hero">.*?</section>', lambda _: '<!-- sx-promo-start -->' + promotions() + '<!-- sx-promo-end -->', source, count=1, flags=re.S)
+            source, count = re.subn(r'<main class="sx-home sx-shell">.*?</main>', lambda _: home(), source, count=1, flags=re.S)
+            assert count == 1, relative
         source = common_assets(source)
         pending = path.with_suffix('.html.sx-tmp')
         pending.write_text(source, encoding='utf-8')
@@ -166,3 +177,5 @@ if (ROOT / 'catalog/index.html').exists():
     pending.replace(ROOT / 'catalog/index.html')
 shutil.copyfile(CSS, ROOT / 'site-design.css')
 shutil.copyfile(CSS.with_name('site-promotions.js'), ROOT / 'site-promotions.js')
+
+shutil.copyfile(CSS.with_name('site-logo.png'), ROOT / 'site-logo.png')

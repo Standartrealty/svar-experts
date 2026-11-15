@@ -6,6 +6,7 @@ if (rotation) {
   const pause = controls.querySelector('.sx-promo-pause');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   let paused = reducedMotion.matches;
+  const canHover = matchMedia('(hover: hover)');
   let active = 0;
   let timer;
   function select(index) {
@@ -17,7 +18,7 @@ if (rotation) {
   }
   function schedule() {
     clearInterval(timer);
-    if (!paused && !document.hidden && !rotation.matches(':hover, :focus-within')) {
+    if (!paused && !document.hidden && !rotation.querySelector('.sx-promo-slide:focus, button:focus-visible') && !(canHover.matches && rotation.matches(':hover'))) {
       timer = setInterval(() => select((active + 1) % slides.length), 6000);
     }
   }
@@ -26,7 +27,10 @@ if (rotation) {
     pause.setAttribute('aria-label', paused ? 'Запустить смену товаров' : 'Остановить смену товаров');
     schedule();
   }
-  choices.forEach((button, index) => button.addEventListener('click', () => select(index)));
+  choices.forEach((button, index) => button.addEventListener('click', () => {
+    select(index);
+    schedule();
+  }));
   pause.addEventListener('click', () => { paused = !paused; updatePause(); });
   reducedMotion.addEventListener('change', () => { paused = reducedMotion.matches; updatePause(); });
   for (const event of ['mouseenter', 'mouseleave', 'focusin', 'focusout']) {
@@ -53,4 +57,44 @@ if (mobileNav) {
       pending = false;
     });
   }, { passive: true });
+}
+
+const brandTile = document.querySelector('.sx-brand-tile');
+if (brandTile) {
+  const links = [...brandTile.querySelectorAll('.sx-brand-link')];
+  const next = brandTile.querySelector('.sx-brand-next');
+  let shown = 0;
+  function advance() {
+    links[shown].hidden = true;
+    shown = (shown + 1) % links.length;
+    links[shown].hidden = false;
+  }
+  next.addEventListener('click', advance);
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    setInterval(() => {
+      if (!document.hidden && !brandTile.matches(':focus-within') &&
+          !(matchMedia('(hover: hover)').matches && brandTile.matches(':hover'))) advance();
+    }, 4500);
+  }
+}
+
+const picks = document.querySelector('.sx-picks');
+const picksControls = document.querySelector('.sx-picks-controls');
+if (picks && picksControls) {
+  const [previous, next] = picksControls.querySelectorAll('button');
+  function move(direction) {
+    const behavior = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+    picks.scrollBy({left: direction * picks.clientWidth * 0.8, behavior});
+  }
+  function sync() {
+    const overflow = picks.scrollWidth - picks.clientWidth;
+    picksControls.hidden = overflow <= 2;
+    previous.disabled = picks.scrollLeft <= 2;
+    next.disabled = picks.scrollLeft >= overflow - 2;
+  }
+  previous.addEventListener('click', () => move(-1));
+  next.addEventListener('click', () => move(1));
+  picks.addEventListener('scroll', sync, {passive: true});
+  new ResizeObserver(sync).observe(picks);
+  sync();
 }
